@@ -5,6 +5,17 @@ img {
     max-width: 100%;
 }
 
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+form > * {
+    padding: 6px 10px;
+    margin-bottom: 6px;
+}
+
 .dino {
     display: block;
     max-width: 45%;
