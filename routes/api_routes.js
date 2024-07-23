@@ -5,7 +5,7 @@ const {getNotes, saveNotes } = require('../db');
 
 //API Routes
 router.get('/notes', async (requestObj, responseObj) => {
-    const notes = await db.getNotes();
+    const notes = await getNotes();
 
     responseObj.json(notes);
 });

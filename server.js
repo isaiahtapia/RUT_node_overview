@@ -24,7 +24,7 @@ app.get('*', (requestObj, responseObj) => {
 });
 
 app.listen(3333, () => {
-    console.log('Server started');
+    console.log('Server Started');
 })
 
 
